@@ -10,11 +10,19 @@ public class PlayerShoot : MonoBehaviour
 
     private IWeapon interfaceWeapon;
 
+    [SerializeField]
+    private float AmountAmmo = 10;
+
     private void Start()
     {
         if (equippedWeapon == null) return;
 
         interfaceWeapon = equippedWeapon.GetComponent<IWeapon>();
+
+        if(interfaceWeapon == null) return;
+
+        interfaceWeapon.onWeaponShot += DecreaseAmmo;
+        
     }
 
     private void OnEnable()
@@ -27,7 +35,7 @@ public class PlayerShoot : MonoBehaviour
 
     private void ShootWeapon(InputAction.CallbackContext context)
     {
-        if (interfaceWeapon == null) return;
+        if (interfaceWeapon == null || AmountAmmo == 0) return;
 
         interfaceWeapon.Shoot();
 
@@ -39,6 +47,13 @@ public class PlayerShoot : MonoBehaviour
 
         interfaceWeapon.StopShooting();
 
+    }
+
+    private void DecreaseAmmo()
+    {
+        AmountAmmo = Mathf.Clamp(AmountAmmo - 1, 0, 100);
+
+        if (AmountAmmo == 0) interfaceWeapon.StopShooting();
     }
 
 }

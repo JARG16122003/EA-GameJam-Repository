@@ -1,9 +1,12 @@
+using System;
 using System.Collections;
 using Unity.IO.LowLevel.Unsafe;
 using UnityEngine;
 
 public class BaseWeapon : MonoBehaviour , IWeapon
 {
+    public event Action onWeaponShot;
+
     [SerializeField]
     private GameObject bulletPrefab;
 
@@ -39,6 +42,7 @@ public class BaseWeapon : MonoBehaviour , IWeapon
     private IEnumerator StartSpawnBullets()
     {
         SpawnBullets();
+        onWeaponShot?.Invoke();
         yield return new WaitForSeconds(RateFire);
         StartCoroutine(StartSpawnBullets());
     }
