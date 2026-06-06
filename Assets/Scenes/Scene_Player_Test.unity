@@ -961,7 +961,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8195901633421418340, guid: 86db3c5e384e6564889b6987e623839a, type: 3}
   muzzleWeapon: {fileID: 1922441552}
   isBurstFire: 0
-  RateFire: 0.5
+  RateFire: 1e+19
   WeaponPower: 20
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
