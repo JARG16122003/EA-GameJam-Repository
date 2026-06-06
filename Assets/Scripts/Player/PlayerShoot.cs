@@ -1,20 +1,25 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerShoot : MonoBehaviour
+public class PlayerShoot : MonoBehaviour , IInventory
 {
     [SerializeField]
     private InputActionReference shootAction;
     [SerializeField]
     private GameObject equippedWeapon;
+    [SerializeField]
+    private TextMeshProUGUI contadorBalas;
 
     private IWeapon interfaceWeapon;
 
     [SerializeField]
     private float AmountAmmo = 10;
 
-    private void Start()
+
+    void Start()
     {
+        UpdateUI();
         if (equippedWeapon == null) return;
 
         interfaceWeapon = equippedWeapon.GetComponent<IWeapon>();
@@ -23,6 +28,12 @@ public class PlayerShoot : MonoBehaviour
 
         interfaceWeapon.onWeaponShot += DecreaseAmmo;
         
+    }
+
+    public void IncreaseAmmo(float ammountAmmo)
+    {
+        AmountAmmo = Mathf.Clamp(AmountAmmo + ammountAmmo, 0, 100);
+        UpdateUI();
     }
 
     private void OnEnable()
@@ -52,8 +63,16 @@ public class PlayerShoot : MonoBehaviour
     private void DecreaseAmmo()
     {
         AmountAmmo = Mathf.Clamp(AmountAmmo - 1, 0, 100);
+        UpdateUI();
 
         if (AmountAmmo == 0) interfaceWeapon.StopShooting();
+    }
+
+    private void UpdateUI()
+    {
+        if (contadorBalas == null) return;
+
+        contadorBalas.text = (AmountAmmo).ToString();
     }
 
 }

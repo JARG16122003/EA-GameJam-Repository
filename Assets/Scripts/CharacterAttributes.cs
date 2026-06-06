@@ -21,17 +21,32 @@ public class CharacterAttributes : MonoBehaviour , IAttributes
     {
         health = Mathf.Clamp(health - amountDamage, 0.0f, maxValueHealth);
 
-        healthBar.enabled = true;
-        healthBar.fillAmount = health / maxValueHealth;
+        if (healthBar != null && healthBar.enabled == false) healthBar.enabled = true;
+
+        UpdateHealthBar();
 
         VerifyHealth();
     }
 
-    public virtual void VerifyHealth()
+    public virtual void CureHealth(float amountHealth)
+    {
+        health = Mathf.Clamp(health + amountHealth, 0.0f, maxValueHealth);
+
+        UpdateHealthBar();
+    }
+
+    protected virtual void VerifyHealth()
     {
         if(health == 0.0f)
         {
             Destroy(gameObject); // Logica provisional mientras se implementa animacion muerte
         }
     }
+
+    private void UpdateHealthBar()
+    {
+        if (healthBar == null) return;
+        healthBar.fillAmount = health / maxValueHealth;
+    }
+
 }

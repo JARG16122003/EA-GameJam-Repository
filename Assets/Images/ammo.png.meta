@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4c891bf6d9d9dae43b8b4685fafc0523
+guid: dd398532d018e134aae2de88412d684a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4652004041595197215
-    second: Disparo enem_0
+      213: 2853566114444752598
+    second: ammo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,10 +49,10 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 0.576489, y: 0.756608}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
-  spriteBorder: {x: 127, y: 854, z: 170, w: 237}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 32
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -126,23 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Disparo enem_0
+      name: ammo_0
       rect:
         serializedVersion: 2
-        x: 126
-        y: 853
-        width: 301
-        height: 110
+        x: 17
+        y: 9
+        width: 32
+        height: 54
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f1796f8470d3f8040800000000000000
-      internalID: 4652004041595197215
+      spriteID: 6d632922347e99720800000000000000
+      internalID: 2853566114444752598
       vertices: []
       indices: 
       edges: []
@@ -152,7 +152,7 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Disparo enem_0: 4652004041595197215
+      ammo_0: 2853566114444752598
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
