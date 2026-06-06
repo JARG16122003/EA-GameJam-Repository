@@ -11,16 +11,19 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D playerRigidbody2D;
     private Vector2 moveDirection;
+    private Animator animator;
 
     private void Awake()
     {
         playerRigidbody2D = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
         GetMovementValue();
+        updateAnimations();
     }
 
     private void FixedUpdate()
@@ -38,5 +41,13 @@ public class PlayerMovement : MonoBehaviour
     {
         playerRigidbody2D.linearVelocity = new Vector2(moveDirection.x * movementeSpeed,
                                                        moveDirection.y * movementeSpeed);
+    }
+
+    private void updateAnimations()
+    {
+        animator.SetBool("isMoving", moveDirection != Vector2.zero);
+
+        animator.SetFloat("moveX", moveDirection.x);
+        animator.SetFloat("moveY", moveDirection.y);
     }
 }

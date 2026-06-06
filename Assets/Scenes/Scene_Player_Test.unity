@@ -479,6 +479,7 @@ GameObject:
   - component: {fileID: 1085359736}
   - component: {fileID: 1085359731}
   - component: {fileID: 1085359730}
+  - component: {fileID: 1085359737}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -555,7 +556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ab21c0b26c27d04d8fb78b775601be4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  movementeSpeed: 10
+  movementeSpeed: 2
   moveAction: {fileID: 2093990859934896032, guid: 0352d031f64b41f4194b3b369d8659ea, type: 3}
 --- !u!212 &1085359733
 SpriteRenderer:
@@ -606,7 +607,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -5177388603050735206, guid: 8884154dfe85442a3a3578be807dbcdf, type: 3}
+  m_Sprite: {fileID: -1799935494070048048, guid: 1d124e76acf5bc84685dd763212a92bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -659,6 +660,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerShoot
   shootAction: {fileID: -8012929351355516745, guid: 0352d031f64b41f4194b3b369d8659ea, type: 3}
   equippedWeapon: {fileID: 1965710722}
+--- !u!95 &1085359737
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085359729}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5b057335f62ad734eafe0d05275522c6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1670413476
 GameObject:
   m_ObjectHideFlags: 0
@@ -857,8 +880,8 @@ Transform:
   m_GameObject: {fileID: 1965710722}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.798, y: 0, z: 0}
-  m_LocalScale: {x: 0.62, y: 0.19, z: 1}
+  m_LocalPosition: {x: 0.14, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1922441552}
@@ -913,8 +936,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 684f466ce1f2b804dbe1ec45096c8d4c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
