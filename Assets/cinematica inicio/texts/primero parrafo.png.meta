@@ -1,0 +1,1898 @@
+fileFormatVersion: 2
+guid: ea43a81bdad17ae4f889f1c89b5cb0d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 390014143583038290
+    second: primero parrafo_0
+  - first:
+      213: -8011002562627580977
+    second: primero parrafo_1
+  - first:
+      213: 7117555529066794675
+    second: primero parrafo_2
+  - first:
+      213: 8183459575049554511
+    second: primero parrafo_3
+  - first:
+      213: 3154829541369342575
+    second: primero parrafo_4
+  - first:
+      213: -501875763978599312
+    second: primero parrafo_5
+  - first:
+      213: -4508608523802422482
+    second: primero parrafo_6
+  - first:
+      213: -2707206373908029751
+    second: primero parrafo_7
+  - first:
+      213: 2732539564974800315
+    second: primero parrafo_8
+  - first:
+      213: -5998722696435234356
+    second: primero parrafo_9
+  - first:
+      213: -7476224365406599994
+    second: primero parrafo_10
+  - first:
+      213: 3755842481911743758
+    second: primero parrafo_11
+  - first:
+      213: 1628393348690040468
+    second: primero parrafo_12
+  - first:
+      213: 6613635335231425573
+    second: primero parrafo_13
+  - first:
+      213: 3942412342721653553
+    second: primero parrafo_14
+  - first:
+      213: 4906506226718621212
+    second: primero parrafo_15
+  - first:
+      213: 8904222091319862462
+    second: primero parrafo_16
+  - first:
+      213: 935898399750469874
+    second: primero parrafo_17
+  - first:
+      213: -4956682234174524542
+    second: primero parrafo_18
+  - first:
+      213: 5875369960226870578
+    second: primero parrafo_19
+  - first:
+      213: 5531295725437710721
+    second: primero parrafo_20
+  - first:
+      213: -2733410720408252733
+    second: primero parrafo_21
+  - first:
+      213: 5053184249669966210
+    second: primero parrafo_22
+  - first:
+      213: -7087684793573622877
+    second: primero parrafo_23
+  - first:
+      213: -8813809383738096778
+    second: primero parrafo_24
+  - first:
+      213: -8800204816025160014
+    second: primero parrafo_25
+  - first:
+      213: -34551085329117246
+    second: primero parrafo_26
+  - first:
+      213: 8316871421868734224
+    second: primero parrafo_27
+  - first:
+      213: 4587785022089786519
+    second: primero parrafo_28
+  - first:
+      213: 4362835913423707703
+    second: primero parrafo_29
+  - first:
+      213: -1737738337026451192
+    second: primero parrafo_30
+  - first:
+      213: 1483926589244527726
+    second: primero parrafo_31
+  - first:
+      213: -6576405670200489498
+    second: primero parrafo_32
+  - first:
+      213: -6284302681626892934
+    second: primero parrafo_33
+  - first:
+      213: 8608668808847581022
+    second: primero parrafo_34
+  - first:
+      213: 7588833945605268096
+    second: primero parrafo_35
+  - first:
+      213: 5093021606159210585
+    second: primero parrafo_36
+  - first:
+      213: -2680655588340305151
+    second: primero parrafo_37
+  - first:
+      213: -865133736514428053
+    second: primero parrafo_38
+  - first:
+      213: 8397782679837668197
+    second: primero parrafo_39
+  - first:
+      213: 6197385984109497376
+    second: primero parrafo_40
+  - first:
+      213: -1880414698817150841
+    second: primero parrafo_41
+  - first:
+      213: 7568700157717318916
+    second: primero parrafo_42
+  - first:
+      213: -315489842161449334
+    second: primero parrafo_43
+  - first:
+      213: 1671764823737414384
+    second: primero parrafo_44
+  - first:
+      213: -8202308038105759058
+    second: primero parrafo_45
+  - first:
+      213: -4605741786254946533
+    second: primero parrafo_46
+  - first:
+      213: 1953662526931576694
+    second: primero parrafo_47
+  - first:
+      213: -1440120494336280740
+    second: primero parrafo_48
+  - first:
+      213: -332627208885702261
+    second: primero parrafo_49
+  - first:
+      213: -825897382563179293
+    second: primero parrafo_50
+  - first:
+      213: -8782681298919539536
+    second: primero parrafo_51
+  - first:
+      213: -6788501607719693348
+    second: primero parrafo_52
+  - first:
+      213: -6315857125615146586
+    second: primero parrafo_53
+  - first:
+      213: -4733640555417146647
+    second: primero parrafo_54
+  - first:
+      213: 7108373890666351395
+    second: primero parrafo_55
+  - first:
+      213: 8520340753259179558
+    second: primero parrafo_56
+  - first:
+      213: 1885697685316040364
+    second: primero parrafo_57
+  - first:
+      213: -6544431787391308133
+    second: primero parrafo_58
+  - first:
+      213: 5807831488026514963
+    second: primero parrafo_59
+  - first:
+      213: -4220444714135020048
+    second: primero parrafo_60
+  - first:
+      213: 3724397543639427810
+    second: primero parrafo_61
+  - first:
+      213: -1490332817379250264
+    second: primero parrafo_62
+  - first:
+      213: -5647966020271913033
+    second: primero parrafo_63
+  - first:
+      213: -466208692134690896
+    second: primero parrafo_64
+  - first:
+      213: 8400290118682055682
+    second: primero parrafo_65
+  - first:
+      213: 3624064839295313255
+    second: primero parrafo_66
+  - first:
+      213: -187908370035718336
+    second: primero parrafo_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 36
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: primero parrafo_0
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 203
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b25a51ccb996500800000000000000
+      internalID: 390014143583038290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 203
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbc6d70d9333d090800000000000000
+      internalID: -8011002562627580977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 203
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bec4231b03a6c260800000000000000
+      internalID: 7117555529066794675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_3
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 203
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a099c202d719170800000000000000
+      internalID: 8183459575049554511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_4
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 203
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a6a3cb0c438cb20800000000000000
+      internalID: 3154829541369342575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_5
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 203
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0748da6d6aaf809f0800000000000000
+      internalID: -501875763978599312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_6
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 203
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23557b6f643e61c0800000000000000
+      internalID: -4508608523802422482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_7
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 162
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ced98575221e6ad0800000000000000
+      internalID: -2707206373908029751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_8
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 162
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbdf509b14eebe520800000000000000
+      internalID: 2732539564974800315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_9
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 162
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc987ec7d7140cca0800000000000000
+      internalID: -5998722696435234356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 162
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4c1d6ec8d1f3890800000000000000
+      internalID: -7476224365406599994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_11
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 162
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05cba686de6f1430800000000000000
+      internalID: 3755842481911743758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_12
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 162
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496574f7f17399610800000000000000
+      internalID: 1628393348690040468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_13
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 162
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52cc07efb4a58cb50800000000000000
+      internalID: 6613635335231425573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_14
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 162
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b2a0e432346b630800000000000000
+      internalID: 3942412342721653553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_15
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 162
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e3ecbda69671440800000000000000
+      internalID: 4906506226718621212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_16
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 162
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb46e42c0d6229b70800000000000000
+      internalID: 8904222091319862462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_17
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 162
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8bbfec2aafcfc00800000000000000
+      internalID: 935898399750469874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_18
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 162
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283b98705c3563bb0800000000000000
+      internalID: -4956682234174524542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_19
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 162
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235d25b89d1898150800000000000000
+      internalID: 5875369960226870578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_20
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 162
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181f95ef72c13cc40800000000000000
+      internalID: 5531295725437710721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_21
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 162
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce42d89e69f01ad0800000000000000
+      internalID: -2733410720408252733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_22
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 162
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2895d2a5d44802640800000000000000
+      internalID: 5053184249669966210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_23
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 162
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab3b1f7b3c73ad90800000000000000
+      internalID: -7087684793573622877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_24
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 162
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6734944201f0fa580800000000000000
+      internalID: -8813809383738096778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_25
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 162
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6732668546fd580800000000000000
+      internalID: -8800204816025160014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_26
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 162
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf8a5098ff358ff0800000000000000
+      internalID: -34551085329117246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_27
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 162
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01775175e767b6370800000000000000
+      internalID: 8316871421868734224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_28
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 162
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794f483ab261baf30800000000000000
+      internalID: 4587785022089786519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_29
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 162
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73edfe0e528eb8c30800000000000000
+      internalID: 4362835913423707703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_30
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 162
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809d5fc703052e7e0800000000000000
+      internalID: -1737738337026451192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_31
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 162
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e645da8ee57f79410800000000000000
+      internalID: 1483926589244527726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_32
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 162
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9c5d0e2e9ebb4a0800000000000000
+      internalID: -6576405670200489498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_33
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 162
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a752898b10ca9c8a0800000000000000
+      internalID: -6284302681626892934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_34
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 162
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f5854cba2287770800000000000000
+      internalID: 8608668808847581022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_35
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 162
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0826a332444f05960800000000000000
+      internalID: 7588833945605268096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_36
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 162
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9585284ba2c0ea640800000000000000
+      internalID: 5093021606159210585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_37
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 162
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1037fc3f1f56ccad0800000000000000
+      internalID: -2680655588340305151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_38
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 162
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63e9d7437d6ef3f0800000000000000
+      internalID: -865133736514428053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_39
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 162
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563f6ac9adaea8470800000000000000
+      internalID: 8397782679837668197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_40
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 162
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02cc4d6a7b9810650800000000000000
+      internalID: 6197385984109497376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_41
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 162
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 780a4965bcc67e5e0800000000000000
+      internalID: -1880414698817150841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_42
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 162
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d0f2851bc690960800000000000000
+      internalID: 7568700157717318916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 140
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8609bbf8a72f9bf0800000000000000
+      internalID: -315489842161449334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_44
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 143
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2bcd2ff3d433710800000000000000
+      internalID: 1671764823737414384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_45
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 143
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2006a0c4c8b2e80800000000000000
+      internalID: -8202308038105759058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_46
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 143
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1fc9176f3e1510c0800000000000000
+      internalID: -4605741786254946533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_47
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 143
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677afb0a7bdcc1b10800000000000000
+      internalID: 1953662526931576694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_48
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 143
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57735d5a0aa30ce0800000000000000
+      internalID: -1440120494336280740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_49
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 140
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81fcbbd055426bf0800000000000000
+      internalID: -332627208885702261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_50
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 143
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e49563d4b2d984f0800000000000000
+      internalID: -825897382563179293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_51
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 143
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc3f6a24e5ad1680800000000000000
+      internalID: -8782681298919539536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_52
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 143
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd313ba31c56ac1a0800000000000000
+      internalID: -6788501607719693348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_53
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 143
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9e69738619958a0800000000000000
+      internalID: -6315857125615146586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_54
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 143
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea6af7aefabe4eb0800000000000000
+      internalID: -4733640555417146647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_55
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 143
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b44db446406a260800000000000000
+      internalID: 7108373890666351395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_56
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 143
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e2c4bb5c45e3670800000000000000
+      internalID: 8520340753259179558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_57
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 143
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6f90fcd085b2a10800000000000000
+      internalID: 1885697685316040364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_58
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 140
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e24c796f18d25a0800000000000000
+      internalID: -6544431787391308133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_59
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 143
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316162797ff899050800000000000000
+      internalID: 5807831488026514963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_60
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 143
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd9ec3b4e7fd65c0800000000000000
+      internalID: -4220444714135020048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_61
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 143
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea27fe45d7bfa330800000000000000
+      internalID: 3724397543639427810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_62
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 143
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8afa00fd236415be0800000000000000
+      internalID: -1490332817379250264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_63
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 143
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7473a24d46e91b0800000000000000
+      internalID: -5647966020271913033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_64
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 143
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bfbc122aa1b789f0800000000000000
+      internalID: -466208692134690896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_65
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 143
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20494463b53d39470800000000000000
+      internalID: 8400290118682055682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_66
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 143
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7652e2d25c34b4230800000000000000
+      internalID: 3624064839295313255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: primero parrafo_67
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 143
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047c2b1455a646df0800000000000000
+      internalID: -187908370035718336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      primero parrafo_0: 390014143583038290
+      primero parrafo_1: -8011002562627580977
+      primero parrafo_10: -7476224365406599994
+      primero parrafo_11: 3755842481911743758
+      primero parrafo_12: 1628393348690040468
+      primero parrafo_13: 6613635335231425573
+      primero parrafo_14: 3942412342721653553
+      primero parrafo_15: 4906506226718621212
+      primero parrafo_16: 8904222091319862462
+      primero parrafo_17: 935898399750469874
+      primero parrafo_18: -4956682234174524542
+      primero parrafo_19: 5875369960226870578
+      primero parrafo_2: 7117555529066794675
+      primero parrafo_20: 5531295725437710721
+      primero parrafo_21: -2733410720408252733
+      primero parrafo_22: 5053184249669966210
+      primero parrafo_23: -7087684793573622877
+      primero parrafo_24: -8813809383738096778
+      primero parrafo_25: -8800204816025160014
+      primero parrafo_26: -34551085329117246
+      primero parrafo_27: 8316871421868734224
+      primero parrafo_28: 4587785022089786519
+      primero parrafo_29: 4362835913423707703
+      primero parrafo_3: 8183459575049554511
+      primero parrafo_30: -1737738337026451192
+      primero parrafo_31: 1483926589244527726
+      primero parrafo_32: -6576405670200489498
+      primero parrafo_33: -6284302681626892934
+      primero parrafo_34: 8608668808847581022
+      primero parrafo_35: 7588833945605268096
+      primero parrafo_36: 5093021606159210585
+      primero parrafo_37: -2680655588340305151
+      primero parrafo_38: -865133736514428053
+      primero parrafo_39: 8397782679837668197
+      primero parrafo_4: 3154829541369342575
+      primero parrafo_40: 6197385984109497376
+      primero parrafo_41: -1880414698817150841
+      primero parrafo_42: 7568700157717318916
+      primero parrafo_43: -315489842161449334
+      primero parrafo_44: 1671764823737414384
+      primero parrafo_45: -8202308038105759058
+      primero parrafo_46: -4605741786254946533
+      primero parrafo_47: 1953662526931576694
+      primero parrafo_48: -1440120494336280740
+      primero parrafo_49: -332627208885702261
+      primero parrafo_5: -501875763978599312
+      primero parrafo_50: -825897382563179293
+      primero parrafo_51: -8782681298919539536
+      primero parrafo_52: -6788501607719693348
+      primero parrafo_53: -6315857125615146586
+      primero parrafo_54: -4733640555417146647
+      primero parrafo_55: 7108373890666351395
+      primero parrafo_56: 8520340753259179558
+      primero parrafo_57: 1885697685316040364
+      primero parrafo_58: -6544431787391308133
+      primero parrafo_59: 5807831488026514963
+      primero parrafo_6: -4508608523802422482
+      primero parrafo_60: -4220444714135020048
+      primero parrafo_61: 3724397543639427810
+      primero parrafo_62: -1490332817379250264
+      primero parrafo_63: -5647966020271913033
+      primero parrafo_64: -466208692134690896
+      primero parrafo_65: 8400290118682055682
+      primero parrafo_66: 3624064839295313255
+      primero parrafo_67: -187908370035718336
+      primero parrafo_7: -2707206373908029751
+      primero parrafo_8: 2732539564974800315
+      primero parrafo_9: -5998722696435234356
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

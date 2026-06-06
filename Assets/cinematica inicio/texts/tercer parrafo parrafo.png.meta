@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: b05db1802413e7e498d95cbe5e6d18c3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8678186730792961512
+    second: tercer parrafo parrafo_0
+  - first:
+      213: 3659323493638773310
+    second: tercer parrafo parrafo_1
+  - first:
+      213: -3340787678948828274
+    second: tercer parrafo parrafo_2
+  - first:
+      213: 1751525135171264414
+    second: tercer parrafo parrafo_3
+  - first:
+      213: 5267447792442685149
+    second: tercer parrafo parrafo_4
+  - first:
+      213: -4256646792251499034
+    second: tercer parrafo parrafo_5
+  - first:
+      213: 7035234007508835524
+    second: tercer parrafo parrafo_6
+  - first:
+      213: 5453740854023847218
+    second: tercer parrafo parrafo_7
+  - first:
+      213: 3762107731471400960
+    second: tercer parrafo parrafo_8
+  - first:
+      213: -6924757379307071540
+    second: tercer parrafo parrafo_9
+  - first:
+      213: 7239875690123224005
+    second: tercer parrafo parrafo_10
+  - first:
+      213: 2269759218238931639
+    second: tercer parrafo parrafo_11
+  - first:
+      213: 8920104905779618546
+    second: tercer parrafo parrafo_12
+  - first:
+      213: 777268889295032355
+    second: tercer parrafo parrafo_13
+  - first:
+      213: 5907868251127166052
+    second: tercer parrafo parrafo_14
+  - first:
+      213: 4911029193460866795
+    second: tercer parrafo parrafo_15
+  - first:
+      213: -7944788374118209988
+    second: tercer parrafo parrafo_16
+  - first:
+      213: -2842507296687390006
+    second: tercer parrafo parrafo_17
+  - first:
+      213: -3214652504691822409
+    second: tercer parrafo parrafo_18
+  - first:
+      213: 7796491671721390040
+    second: tercer parrafo parrafo_19
+  - first:
+      213: -2590812974992502946
+    second: tercer parrafo parrafo_20
+  - first:
+      213: 7476723801183730433
+    second: tercer parrafo parrafo_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 720
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tercer parrafo parrafo_0
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 192
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e54c674adc1f6870800000000000000
+      internalID: 8678186730792961512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tercer parrafo parrafo_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 192
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a949c545788c230800000000000000
+      internalID: 3659323493638773310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tercer parrafo parrafo_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 192
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8bd0466e4323a1d0800000000000000
+      internalID: -3340787678948828274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tercer parrafo parrafo_3
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 192
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f1d0994daae4810800000000000000
+      internalID: 1751525135171264414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tercer parrafo parrafo_4
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 192
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6367debdbb91940800000000000000
+      internalID: 5267447792442685149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tercer parrafo parrafo_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed1b8d8b4a5de4c0800000000000000
+      internalID: -4256646792251499034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tercer parrafo parrafo_6
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 192
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ccdf493e0c22a160800000000000000
+      internalID: 7035234007508835524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tercer parrafo parrafo_7
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 192
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d702d59649fab40800000000000000
+      internalID: 5453740854023847218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tercer parrafo parrafo_8
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 192
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0008a1d9c01b53430800000000000000
+      internalID: 3762107731471400960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tercer parrafo parrafo_9
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 192
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc713aa3ad156ef90800000000000000
+      internalID: -6924757379307071540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tercer parrafo parrafo_10
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 192
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3e7c7e494397460800000000000000
+      internalID: 7239875690123224005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tercer parrafo parrafo_11
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 192
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2ccc8bbfdcf7f10800000000000000
+      internalID: 2269759218238931639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tercer parrafo parrafo_12
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 192
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2a63ca6249acb70800000000000000
+      internalID: 8920104905779618546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tercer parrafo parrafo_13
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 192
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3209469cfe969ca00800000000000000
+      internalID: 777268889295032355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tercer parrafo parrafo_14
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 192
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4643e388fd6fcf150800000000000000
+      internalID: 5907868251127166052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tercer parrafo parrafo_15
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 192
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beedecd180b772440800000000000000
+      internalID: 4911029193460866795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tercer parrafo parrafo_16
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 192
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36e70921117eb190800000000000000
+      internalID: -7944788374118209988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tercer parrafo parrafo_17
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 192
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac20e758ca26d88d0800000000000000
+      internalID: -2842507296687390006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tercer parrafo parrafo_18
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 192
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0368534924363d0800000000000000
+      internalID: -3214652504691822409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tercer parrafo parrafo_19
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 192
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dfae3b2ed3b23c60800000000000000
+      internalID: 7796491671721390040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tercer parrafo parrafo_20
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 192
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f491273559b0cd0800000000000000
+      internalID: -2590812974992502946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tercer parrafo parrafo_21
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 192
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10bb34d0fa8a2c760800000000000000
+      internalID: 7476723801183730433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tercer parrafo parrafo_0: 8678186730792961512
+      tercer parrafo parrafo_1: 3659323493638773310
+      tercer parrafo parrafo_10: 7239875690123224005
+      tercer parrafo parrafo_11: 2269759218238931639
+      tercer parrafo parrafo_12: 8920104905779618546
+      tercer parrafo parrafo_13: 777268889295032355
+      tercer parrafo parrafo_14: 5907868251127166052
+      tercer parrafo parrafo_15: 4911029193460866795
+      tercer parrafo parrafo_16: -7944788374118209988
+      tercer parrafo parrafo_17: -2842507296687390006
+      tercer parrafo parrafo_18: -3214652504691822409
+      tercer parrafo parrafo_19: 7796491671721390040
+      tercer parrafo parrafo_2: -3340787678948828274
+      tercer parrafo parrafo_20: -2590812974992502946
+      tercer parrafo parrafo_21: 7476723801183730433
+      tercer parrafo parrafo_3: 1751525135171264414
+      tercer parrafo parrafo_4: 5267447792442685149
+      tercer parrafo parrafo_5: -4256646792251499034
+      tercer parrafo parrafo_6: 7035234007508835524
+      tercer parrafo parrafo_7: 5453740854023847218
+      tercer parrafo parrafo_8: 3762107731471400960
+      tercer parrafo parrafo_9: -6924757379307071540
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
