@@ -22,11 +22,15 @@ public class EnemyChasePlayer : MonoBehaviour
     private EnemyAimController aimController;
     private Transform player;
 
+    private SpriteRenderer spriteRenderer;
+
     void Awake()
     {
         rigidbodyEnemy = GetComponent<Rigidbody2D>();
 
         aimController = GetComponentInChildren<EnemyAimController>();
+
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
 
     }
 
@@ -52,6 +56,15 @@ public class EnemyChasePlayer : MonoBehaviour
         {
             rigidbodyEnemy.linearVelocity = Vector2.zero;
             return;
+        }
+
+        if(player.position.x < transform.position.x)
+        {
+            spriteRenderer.flipX = true;
+        }
+        else
+        {
+            spriteRenderer.flipX = false;
         }
 
         float distanceBetweenPlayer = Vector2.Distance(rigidbodyEnemy.position, player.position);

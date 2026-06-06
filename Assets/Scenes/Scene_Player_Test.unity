@@ -660,6 +660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerShoot
   shootAction: {fileID: -8012929351355516745, guid: 0352d031f64b41f4194b3b369d8659ea, type: 3}
   equippedWeapon: {fileID: 1965710722}
+  AmountAmmo: 30
 --- !u!95 &1085359737
 Animator:
   serializedVersion: 7
@@ -961,7 +962,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8195901633421418340, guid: 86db3c5e384e6564889b6987e623839a, type: 3}
   muzzleWeapon: {fileID: 1922441552}
   isBurstFire: 0
-  RateFire: 1e+19
+  RateFire: 0.5
   WeaponPower: 20
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
