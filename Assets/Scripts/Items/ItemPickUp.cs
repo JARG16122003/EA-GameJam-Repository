@@ -12,6 +12,14 @@ public class ItemPickUp : MonoBehaviour
 
     private Vector3 startPosition;
 
+    [SerializeField]
+    public AudioSource pickupAudio;
+
+    [SerializeField]
+    protected AudioClip pickMedKit;
+    [SerializeField]
+    protected AudioClip pickAmmo;
+
     protected virtual void Start()
     {
         startPosition = transform.position;
@@ -39,6 +47,9 @@ public class ItemPickUp : MonoBehaviour
     protected virtual void ApplyLogicItem(GameObject player)
     {
         Destroy(gameObject, 0.2f);
+
+        pickupAudio.PlayOneShot(pickMedKit);
+
     }
 
 }

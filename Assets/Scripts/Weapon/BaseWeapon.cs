@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using Unity.IO.LowLevel.Unsafe;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class BaseWeapon : MonoBehaviour , IWeapon
 {
@@ -23,7 +24,10 @@ public class BaseWeapon : MonoBehaviour , IWeapon
     private float WeaponPower = 20.0f;
 
     private bool isShooting = false;
-       
+
+    public AudioSource shootAudioSource; 
+    public AudioClip shoot;
+
     public void Shoot()
     {
         if (isShooting) return;
@@ -50,6 +54,9 @@ public class BaseWeapon : MonoBehaviour , IWeapon
     private void SpawnBullets()
     {
         if (!CanShoot()) return;
+
+        shootAudioSource.pitch = Random.Range(0.7f, 1.3f);
+        shootAudioSource.PlayOneShot(shoot);
 
         GameObject bullet = Instantiate(bulletPrefab, muzzleWeapon.position, muzzleWeapon.rotation);
 
