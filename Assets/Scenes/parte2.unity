@@ -1433,7 +1433,7 @@ MonoBehaviour:
   player: {fileID: 1597190907}
   mainCamera: {fileID: 0}
   directorCinematics: {fileID: 607099751}
-  scene: main menu
+  scene: final Cinematic
   sizeCamera: 5.6
   shouldChangeScene: 1
 --- !u!114 &607099750
