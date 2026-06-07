@@ -12,22 +12,26 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D playerRigidbody2D;
     private Vector2 moveDirection;
     private Animator animator;
+    private PlayerManager playerManager;
 
     private void Awake()
     {
         playerRigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        playerManager = GetComponent<PlayerManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (CanMove()) return;
         GetMovementValue();
         updateAnimations();
     }
 
     private void FixedUpdate()
     {
+        if (CanMove()) return;
         ApplyMovement();
     }
 
@@ -49,5 +53,10 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("moveX", moveDirection.x);
         animator.SetFloat("moveY", moveDirection.y);
+    }
+
+    private bool CanMove()
+    {
+        return playerManager == null || playerManager.currentState != PlayerState.playing;
     }
 }

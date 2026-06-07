@@ -6618,6 +6618,10 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1694925488}
+    - target: {fileID: 3601666393779636824, guid: fd1b776d42a879347bf168c663c5a697, type: 3}
+      propertyPath: timeToDestroy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4462231401679060099, guid: fd1b776d42a879347bf168c663c5a697, type: 3}
       propertyPath: AmountAmmo
       value: 30

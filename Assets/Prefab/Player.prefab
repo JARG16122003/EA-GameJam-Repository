@@ -201,10 +201,10 @@ GameObject:
   - component: {fileID: 4462231401679060099}
   - component: {fileID: 3601666393779636824}
   - component: {fileID: 6393380379264614988}
+  - component: {fileID: 8351612171217594089}
   - component: {fileID: 9115056498102100033}
   - component: {fileID: 4014405249967196433}
   - component: {fileID: 5823648795427430833}
-  - component: {fileID: 8351612171217594089}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -342,9 +342,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b67556976bebe84c9882c57ffe878f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterAttributes
+  characterAnimator: {fileID: 8351612171217594089}
   healthBar: {fileID: 0}
   health: 100
-  shouldDestroyCharacter: 1
+  deadAnimName: muerte
+  timeToDestroy: 0.3
 --- !u!114 &6393380379264614988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,6 +359,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d36ad09bb828844ba7d2b4d873dc753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerManager
+--- !u!95 &8351612171217594089
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5513118563145851331}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5b057335f62ad734eafe0d05275522c6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &9115056498102100033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -460,25 +484,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.5667177, y: 0.7009742}
   m_EdgeRadius: 0
---- !u!95 &8351612171217594089
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5513118563145851331}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5b057335f62ad734eafe0d05275522c6, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
