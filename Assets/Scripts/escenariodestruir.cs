@@ -14,6 +14,7 @@ public class EscenarioDestruir : MonoBehaviour
     [SerializeField] private Transform objetivoCamara; // GameObject vacío que actúa de target
     [SerializeField] private GameObject explosionPrefab;
     [SerializeField] private TriggerArea triggerArea;
+    [SerializeField] private TimelineManager timelineManager;
 
     [Header("Destrucción")]
     [SerializeField] private float tiempoEntreFilas = 0.08f;
@@ -24,6 +25,7 @@ public class EscenarioDestruir : MonoBehaviour
     [SerializeField] private int explosionesPorFila = 15;
     [SerializeField] private int rangoVerticalExplosion = 3;
 
+    
     private bool destruccionActiva;
     [SerializeField]
     private int enemigosRestantes;
@@ -31,6 +33,8 @@ public class EscenarioDestruir : MonoBehaviour
 
     [SerializeField]
     private List<EnemyManager> enemies = new List<EnemyManager>();
+    [SerializeField]
+    private GameObject jefe;
 
     private void Start()
     {
@@ -40,8 +44,10 @@ public class EscenarioDestruir : MonoBehaviour
             return;
         }
 
+        timelineManager = GetComponent<TimelineManager>();
         bounds = tilemap.cellBounds;
         InicializarEnemigos();
+        InicializarJefe();
 
         if(triggerArea != null)
         {
@@ -67,6 +73,14 @@ public class EscenarioDestruir : MonoBehaviour
         Debug.Log("Robots encontrados: " + enemigosRestantes);
     }
 
+    private void InicializarJefe()
+    {
+        if (jefe == null) return;
+        enemigosRestantes = 1;
+        CharacterAttributes attributes = jefe.GetComponent<CharacterAttributes>();
+        attributes.onCharacterDead += OnEnemyDead;
+    }
+
     private void OnEnemyDead()
     {
         Debug.Log($"OnEnemyDead llamado en frame {Time.frameCount}");
@@ -83,6 +97,7 @@ public class EscenarioDestruir : MonoBehaviour
         if (destruccionActiva) return;
         destruccionActiva = true;
         BorrarEnemigosSi();
+        IniciarCinematica();
         StartCoroutine(BarridoVerticalIrregular());
     }
 
@@ -91,8 +106,16 @@ public class EscenarioDestruir : MonoBehaviour
         if (enemigosRestantes <= 0) return;
         foreach(EnemyManager enemy in enemies)
         {
-            Destroy(enemy.gameObject);
+            if(enemy != null)
+            {
+                Destroy(enemy.gameObject);
+            }
         }
+    }
+
+    private void IniciarCinematica()
+    {
+        if (timelineManager != null) timelineManager.StartCinematic();
     }
     private IEnumerator BarridoVerticalIrregular()
     {
