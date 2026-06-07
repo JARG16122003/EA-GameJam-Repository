@@ -25,13 +25,9 @@ public class PlayerManager : MonoBehaviour
         if (characterAttributes != null) characterAttributes.onCharacterDead += DeadSetup;
     }
 
-    private void OnDestroy()
-    {
-        onPlayerDead?.Invoke();
-    }
-
     private void DeadSetup()
     {
+        onPlayerDead?.Invoke();
         characterAttributes.onCharacterDead -= DeadSetup;
         currentState = PlayerState.dead;
 

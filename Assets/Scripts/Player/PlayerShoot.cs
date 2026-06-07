@@ -16,9 +16,12 @@ public class PlayerShoot : MonoBehaviour , IInventory
     [SerializeField]
     private float AmountAmmo = 10;
 
+    private PlayerManager playerManager;
 
     void Start()
     {
+        playerManager = GetComponent<PlayerManager>();
+
         UpdateUI();
         if (equippedWeapon == null) return;
 
@@ -29,6 +32,7 @@ public class PlayerShoot : MonoBehaviour , IInventory
         interfaceWeapon.onWeaponShot += DecreaseAmmo;
         
     }
+       
 
     public void IncreaseAmmo(float ammountAmmo)
     {
@@ -43,10 +47,16 @@ public class PlayerShoot : MonoBehaviour , IInventory
         shootAction.action.canceled += StopShootingWeapon;
     }
 
+    private void OnDestroy()
+    {
+        shootAction.action.started -= ShootWeapon;
+        shootAction.action.canceled -= StopShootingWeapon;
+    }
+
 
     private void ShootWeapon(InputAction.CallbackContext context)
     {
-        if (interfaceWeapon == null || AmountAmmo == 0) return;
+        if (interfaceWeapon == null || AmountAmmo == 0 || playerManager.currentState != PlayerState.playing) return;
 
         interfaceWeapon.Shoot();
 

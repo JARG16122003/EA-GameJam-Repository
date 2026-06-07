@@ -127,6 +127,8 @@ MonoBehaviour:
   isBurstFire: 0
   RateFire: 0.5
   WeaponPower: 20
+  shootAudioSource: {fileID: 0}
+  shoot: {fileID: 0}
 --- !u!212 &1061374041050048980
 SpriteRenderer:
   serializedVersion: 2
@@ -346,7 +348,7 @@ MonoBehaviour:
   healthBar: {fileID: 0}
   health: 100
   deadAnimName: muerte
-  timeToDestroy: 0.3
+  timeToDestroy: 7
 --- !u!114 &6393380379264614988
 MonoBehaviour:
   m_ObjectHideFlags: 0
