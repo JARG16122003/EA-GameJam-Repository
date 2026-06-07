@@ -308,8 +308,9 @@ MonoBehaviour:
   characterAnimator: {fileID: 8078666154624520406}
   healthBar: {fileID: 9097863205116904769}
   health: 100
-  deadAnimName: deathAnim
-  timeToDestroy: 0.5
+  deadAnimName: death2
+  timeToDestroy: 1
+  deathSound: {fileID: 8300000, guid: 52c52281f66ea9246ae8419a3f09ceb7, type: 3}
 --- !u!95 &8078666154624520406
 Animator:
   serializedVersion: 7

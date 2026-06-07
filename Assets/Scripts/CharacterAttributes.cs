@@ -2,8 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-
-public class CharacterAttributes : MonoBehaviour , IAttributes
+public class CharacterAttributes : MonoBehaviour, IAttributes
 {
     public event Action onCharacterDead;
 
@@ -17,11 +16,11 @@ public class CharacterAttributes : MonoBehaviour , IAttributes
     private string deadAnimName;
     [SerializeField]
     private float timeToDestroy;
-
-
+    [SerializeField]
+    private AudioClip deathSound;
 
     private float maxValueHealth = 100.0f;
-    
+
     void Start()
     {
         maxValueHealth = health;
@@ -33,7 +32,8 @@ public class CharacterAttributes : MonoBehaviour , IAttributes
     {
         health = Mathf.Clamp(health - amountDamage, 0.0f, maxValueHealth);
 
-        if (healthBar != null && healthBar.enabled == false) healthBar.enabled = true;
+        if (healthBar != null && healthBar.enabled == false)
+            healthBar.enabled = true;
 
         UpdateHealthBar();
 
@@ -49,12 +49,17 @@ public class CharacterAttributes : MonoBehaviour , IAttributes
 
     protected virtual void VerifyHealth()
     {
-
-        if(health == 0.0f)
+        if (health == 0.0f)
         {
             onCharacterDead?.Invoke();
+
+            if (deathSound != null)
+            {
+                AudioSource.PlayClipAtPoint(deathSound, transform.position);
+            }
+
             StartAnimation(deadAnimName, characterAnimator);
-            Destroy(gameObject, timeToDestroy); // Logica provisional mientras se implementa animacion muerte
+            Destroy(gameObject, timeToDestroy);
         }
     }
 
@@ -71,5 +76,4 @@ public class CharacterAttributes : MonoBehaviour , IAttributes
             animator.CrossFade(nameAnimation, 0.2f);
         }
     }
-
 }
