@@ -6,13 +6,16 @@ public class CharacterAttributes : MonoBehaviour , IAttributes
 {
     [SerializeField]
     protected Image healthBar;
-
+    [SerializeField]
     protected float health = 100.0f;
+    [SerializeField]
+    protected bool shouldDestroyCharacter = true;
 
     private float maxValueHealth = 100.0f;
     
     void Start()
     {
+        maxValueHealth = health;
         if (healthBar != null) return;
         healthBar = GetComponentInChildren<Image>();
     }

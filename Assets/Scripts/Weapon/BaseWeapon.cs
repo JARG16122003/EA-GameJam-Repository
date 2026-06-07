@@ -50,7 +50,6 @@ public class BaseWeapon : MonoBehaviour , IWeapon
     private void SpawnBullets()
     {
         if (!CanShoot()) return;
-
         GameObject bullet = Instantiate(bulletPrefab, muzzleWeapon.position, muzzleWeapon.rotation);
 
         Rigidbody2D rigidbodyBullet = bullet.GetComponent<Rigidbody2D>();
@@ -64,4 +63,5 @@ public class BaseWeapon : MonoBehaviour , IWeapon
     {
         return bulletPrefab != null && muzzleWeapon != null;
     }
+
 }

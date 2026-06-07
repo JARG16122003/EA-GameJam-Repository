@@ -206,6 +206,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterAttributes
   healthBar: {fileID: 9097863205116904769}
+  health: 100
+  shouldDestroyCharacter: 1
 --- !u!212 &704081963289122543
 SpriteRenderer:
   serializedVersion: 2
@@ -287,7 +289,7 @@ Rigidbody2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
