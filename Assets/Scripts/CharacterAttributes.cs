@@ -19,6 +19,7 @@ public class CharacterAttributes : MonoBehaviour, IAttributes
     [SerializeField]
     private AudioClip deathSound;
 
+    private bool isDead = false;
     private float maxValueHealth = 100.0f;
 
     void Start()
@@ -49,8 +50,9 @@ public class CharacterAttributes : MonoBehaviour, IAttributes
 
     protected virtual void VerifyHealth()
     {
-        if (health == 0.0f)
+        if (health == 0.0f && !isDead)
         {
+            isDead = true;
             onCharacterDead?.Invoke();
 
             if (deathSound != null)

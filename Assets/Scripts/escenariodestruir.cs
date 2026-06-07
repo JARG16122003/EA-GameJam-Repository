@@ -1,7 +1,11 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.InputSystem;
+
+
+using NUnit.Framework;
 
 public class EscenarioDestruir : MonoBehaviour
 {
@@ -9,6 +13,7 @@ public class EscenarioDestruir : MonoBehaviour
     [SerializeField] private Tilemap tilemap;
     [SerializeField] private Transform objetivoCamara; // GameObject vacío que actúa de target
     [SerializeField] private GameObject explosionPrefab;
+    [SerializeField] private TriggerArea triggerArea;
 
     [Header("Destrucción")]
     [SerializeField] private float tiempoEntreFilas = 0.08f;
@@ -20,8 +25,12 @@ public class EscenarioDestruir : MonoBehaviour
     [SerializeField] private int rangoVerticalExplosion = 3;
 
     private bool destruccionActiva;
+    [SerializeField]
     private int enemigosRestantes;
     private BoundsInt bounds;
+
+    [SerializeField]
+    private List<EnemyManager> enemies = new List<EnemyManager>();
 
     private void Start()
     {
@@ -33,23 +42,18 @@ public class EscenarioDestruir : MonoBehaviour
 
         bounds = tilemap.cellBounds;
         InicializarEnemigos();
-    }
 
-    private void Update()
-    {
-        if (Keyboard.current != null &&
-            Keyboard.current.spaceKey.wasPressedThisFrame &&
-            !destruccionActiva)
+        if(triggerArea != null)
         {
-            Debug.Log("Destrucción iniciada manualmente.");
-            IniciarDestruccion();
+            triggerArea.onPlayerEnter += IniciarDestruccion;
         }
     }
 
+
     private void InicializarEnemigos()
     {
-        EnemyManager[] enemies = FindObjectsOfType<EnemyManager>();
-        enemigosRestantes = enemies.Length;
+        enemies.AddRange(FindObjectsByType<EnemyManager>(FindObjectsSortMode.None));
+        enemigosRestantes = enemies.Count;
 
         foreach (EnemyManager enemy in enemies)
         {
@@ -65,20 +69,31 @@ public class EscenarioDestruir : MonoBehaviour
 
     private void OnEnemyDead()
     {
+        Debug.Log($"OnEnemyDead llamado en frame {Time.frameCount}");
+        //enemigosRestantes = enemies.Count;
         enemigosRestantes--;
         Debug.Log("Robots restantes: " + enemigosRestantes);
 
         if (enemigosRestantes <= 0 && !destruccionActiva)
-            IniciarDestruccion();
+            IniciarDestruccion(transform);
     }
 
-    private void IniciarDestruccion()
+    private void IniciarDestruccion(Transform transform)
     {
         if (destruccionActiva) return;
         destruccionActiva = true;
+        BorrarEnemigosSi();
         StartCoroutine(BarridoVerticalIrregular());
     }
 
+    private void BorrarEnemigosSi()
+    {
+        if (enemigosRestantes <= 0) return;
+        foreach(EnemyManager enemy in enemies)
+        {
+            Destroy(enemy.gameObject);
+        }
+    }
     private IEnumerator BarridoVerticalIrregular()
     {
         int centroX = (bounds.xMin + bounds.xMax) / 2;
