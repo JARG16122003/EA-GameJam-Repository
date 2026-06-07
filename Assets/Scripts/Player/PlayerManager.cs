@@ -1,5 +1,7 @@
 using System;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum PlayerState
 {
@@ -20,7 +22,7 @@ public class PlayerManager : MonoBehaviour
         currentState = PlayerState.playing;
 
         characterAttributes = GetComponent<CharacterAttributes>();
-        if (characterAttributes != null) characterAttributes.onCharacterDead += ChangeStateToDead;
+        if (characterAttributes != null) characterAttributes.onCharacterDead += DeadSetup;
     }
 
     private void OnDestroy()
@@ -28,10 +30,19 @@ public class PlayerManager : MonoBehaviour
         onPlayerDead?.Invoke();
     }
 
-    private void ChangeStateToDead()
+    private void DeadSetup()
     {
-        characterAttributes.onCharacterDead -= ChangeStateToDead;
+        characterAttributes.onCharacterDead -= DeadSetup;
         currentState = PlayerState.dead;
+
+        StartCoroutine(RestartLevel());
+    }
+
+    private IEnumerator RestartLevel()
+    {
+        yield return new WaitForSeconds(5.0f);
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.name);
     }
 
 }
